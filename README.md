@@ -3,7 +3,7 @@ A simple Genshin Impact wish counter made in my spare time.
 
 # Limitations
   - Uses `localStorage` to store data locally so it will not get carried across different browsers.
-  - Disabling dialogs will make it stop working until the page refreshed.
+  - Disabling dialogs will make it stop working until the page is refreshed.
   - The page can get very long.
 
 # Question
