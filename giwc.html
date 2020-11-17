@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<title>Genshin Impact Wish Counter</title>
+	<body>
+		<div>
+			<label>Character Event Wish: </label>
+			<input type="button"  value="-" type="submit" onclick="evalEvent('1');">
+			<label id="event">uwu</label>
+			<input type="button" value="+" type="submit" onclick="evalEvent('2');">
+			<input type="button" value="4* Reset" type="submit" onclick="confirmSel('1')">
+		</div>
+		<div>
+			<label>Standard Wish: </label>
+			<input type="button" value="-" type="submit" onclick="evalStand('1');">
+			<label id="standard">uwu</label>
+			<input type="button" value="+" type="submit" onclick="evalStand('2');">
+			<input type="button" value="4* Reset" type="submit" onclick="confirmSel('2')">
+		</div>
+		<div>
+			<label>Total Wish: </label>
+			<label id="total">uwu</label>
+			<input type="button" value="5* Reset" type="submit" onclick="confirmSel('3')">
+		</div>
+		<input type="button" value="YEET" type="submit" onclick='clearAll()'>
+		<form>
+			<label id="lbl"></label>
+		</form>
+	</body>
+</html>
+<script src="giwc.js"></script>
